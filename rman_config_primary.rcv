@@ -1,0 +1,4 @@
+set echo on;
+show all;
+configure archivelog deletion policy to shipped to all standby backed up 1 times to device type disk;
+show all;

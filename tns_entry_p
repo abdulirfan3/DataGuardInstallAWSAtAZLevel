@@ -1,0 +1,16 @@
+ORACLE_SID_P.WORLD=
+     (DESCRIPTION =
+      (ADDRESS_LIST =
+      (ADDRESS =
+       (COMMUNITY = SAP.WORLD)
+       (PROTOCOL = TCP)
+       (HOST = ###_PRIMARY_HOST_###)
+       (PORT ###_PORT_###)
+        )
+        )
+       (CONNECT_DATA =
+       (SID = ORACLE_SID)
+       (GLOBAL_NAME = ORACLE_SID)
+       (SERVICE_NAME = ORACLE_SID_P)
+      )
+     )

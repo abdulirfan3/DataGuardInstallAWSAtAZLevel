@@ -1,0 +1,4 @@
+set echo on;
+show all;
+configure archivelog deletion policy to applied on all standby;
+show all;

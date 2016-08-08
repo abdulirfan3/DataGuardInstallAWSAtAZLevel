@@ -1,0 +1,15 @@
+startup mount;
+set head off;
+select 'ending the hot backup mode...' from dual;
+set head on;
+alter database end backup;
+set head off;
+select 'Converting instance from using pfile to spfile...' from dual;
+set head on;
+create spfile from pfile;
+shutdown immediate;
+startup mount;
+set head off;
+select 'checking to make sure database is in STANDBY role...' from dual;
+set head on;
+select db_unique_name, database_role, open_mode from v$database;

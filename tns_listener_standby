@@ -1,0 +1,35 @@
+SID_LIST_LISTENER_ORACLE_SID=
+    (SID_LIST =
+      (SID_DESC =
+      (SDU = 32768)
+      (SID_NAME = ORACLE_SID)
+      (GLOBAL_DBNAME=ORACLE_SID_S)
+      (ORACLE_HOME = O_H)
+      )
+      (SID_DESC =
+      (SID_NAME = ORACLE_SID)
+      (GLOBAL_DBNAME=ORACLE_SID.WORLD)
+      (ORACLE_HOME = O_H)
+      )
+     (SID_DESC =
+     (SID_NAME = ORACLE_SID)
+     (GLOBAL_DBNAME=ORACLE_SID_S_DGMGRL)
+     (ORACLE_HOME = O_H)
+     )
+     (SID_DESC =
+     (SID_NAME = ORACLE_SID)
+     (GLOBAL_DBNAME=ORACLE_SID_S_DGMGRL.WORLD)
+     (ORACLE_HOME = O_H)
+     )
+     (SID_DESC =
+     (SID_NAME = ORACLE_SID)
+     (GLOBAL_DBNAME=ORACLE_SID_S_XPT.WORLD)
+     (ORACLE_HOME = O_H)
+     )
+     (SID_DESC =
+     (SID_NAME = ORACLE_SID)
+     (GLOBAL_DBNAME=ORACLE_SID_S_DGB.WORLD)
+     (ORACLE_HOME = O_H)
+    )
+   )
+
